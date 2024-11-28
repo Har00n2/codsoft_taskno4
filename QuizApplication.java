@@ -40,7 +40,7 @@ class QuizApp extends JFrame implements ActionListener{
 		
 		
 		
-		ImageIcon img = new ImageIcon(ClassLoader.getSystemResource("images/watch2.png"));
+		ImageIcon img = new ImageIcon(ClassLoader.getSystemResource("images/watch.png"));
 		JLabel image = new JLabel(img);
 		image.setBounds(980,120,500,500);
 		add(image);
